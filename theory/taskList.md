@@ -1,0 +1,13 @@
+Список сайтов:
+* [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam/archive)
+* [Facebook Hacker Cup](https://www.facebook.com/hackercup/past_rounds/327966064573355/)
+* [CSES Problemset](https://cses.fi/problemset/)
+* [Сodeforces](https://codeforces.com/gyms)
+* [AtCoder](https://atcoder.jp/contests/)
+* [Яндекс.Алгоритм](https://contest.yandex.ru/contest-list/)
+* [HackerRank](https://www.hackerrank.com/domains/algorithms)
+* [acmp.ru](https://acmp.ru/index.asp?main=tasks)
+* [Timus Online Judge](https://acm.timus.ru/problemset.aspx)
+* [Codeabbey](http://www.codeabbey.com/index/task_list)
+* [CodeChef](https://www.codechef.com/contests)
+* [Подготовка к информатике](https://informatics.mccme.ru/)
