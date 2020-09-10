@@ -1,13 +1,13 @@
 ## Обход в ширину (bfs)
 
-``` 
+```
 queue<int> q;
 q.push(v);
 used[v] = true;
 
 while(!q.empty())
 {
-    v.q.front();
+    v = q.front();
     q.pop();
     for(u : list[v])
     {
@@ -18,4 +18,3 @@ while(!q.empty())
     }
 }
 ```
-
