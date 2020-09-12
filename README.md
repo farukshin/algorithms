@@ -8,6 +8,7 @@
 * [Динамическое программирование](/theory/dynamic.md)
 * [Графовые алгоритмы](/theory/graf.md)
 * * [Обход в ширину (не рекурсивный)](/theory/graf/bfs.md)
+* * [Поиск компонент связности](/theory/graf/bfsCompSv.md)
 * * [Алгоритм Дейкстры](/theory/graf/dejkstra.md)
 * Строковые алгоритмы
 * * [Z функция](/theory/zFunction.md)
