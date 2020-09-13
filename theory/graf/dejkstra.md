@@ -30,7 +30,8 @@ void dejkstra(const vector<vector<pair<int, ll>>>& ss, const int& countNode, con
 
         for (auto chield : ss[curNode])
         {
-            int to = chield.first, len = chield.second;
+            int to = chield.first;
+            ll len = chield.second;
             if (dist[to] > dist[curNode] + len)
             {
                 dist[to] = dist[curNode] + len;

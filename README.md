@@ -10,6 +10,8 @@
 * * [Обход в ширину (не рекурсивный)](/theory/graf/bfs.md)
 * * [Поиск компонент связности](/theory/graf/bfsCompSv.md)
 * * [Алгоритм Дейкстры](/theory/graf/dejkstra.md)
+* * [Топологическая сортировка графа](/theory/graf/topologicSort.md)
+* * [Алгоритм Флойда - Уоршелла (нахождения кратчайших путей между всеми парами вершин)](/theory/graf/Floyd_Warshall.md)
 * Строковые алгоритмы
 * * [Z функция](/theory/zFunction.md)
 * Структуры
