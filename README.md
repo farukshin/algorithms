@@ -15,6 +15,8 @@
 * * [Алгоритм Флойда - Уоршелла (нахождения кратчайших путей между всеми парами вершин)](/theory/graf/Floyd_Warshall.md)
 * * [Алгоритм Крускала (построение минимального остовного дерева)](/theory/graf/Kruskal.md)
 * * [ms-sr](/theory/graf/ms_to_sr.md) | [ms-ss](/theory/graf/ms_to_ss.md) | [sr-ms](/theory/graf/sr_to_ms.md) | [ss-ms](/theory/graf/ss_to_ms.md)
+* * [Поиск истоков и стоков](/theory/graf/istok_stok.md)
+* * [read_ss](/theory/graf/read_ss.md) | [read_ss_from_ms](/theory/graf/read_ss_from_ms.md)
 * Строковые алгоритмы
 * * [Z функция](/theory/zFunction.md)
 * Структуры
