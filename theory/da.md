@@ -38,6 +38,38 @@ void da_minus(vector<int>& a, vector<int>& b)
         a.pop_back();
 }
 
+void da_umnogh(vector<int> &a, vector<int> &b, vector<int> &c)
+{
+    int carry = 0;
+    const int base = 1000 * 1000 * 1000;
+    c.resize(a.size() + b.size());
+    for (size_t i = 0; i < a.size(); ++i)
+        for (int j = 0, carry = 0; j < (int)b.size() || carry; ++j)
+        {
+            long long cur = c[i + j] + a[i] * 1ll * (j < (int)b.size() ? b[j] : 0) + carry;
+            c[i + j] = int(cur % base);
+            carry = int(cur / base);
+        }
+    while (c.size() > 1 && c.back() == 0)
+        c.pop_back();
+}
+
+void da_umnogh_small(vector<int> &a, int &b)
+{
+    int carry = 0;
+    const int base = 1000 * 1000 * 1000;
+    for (size_t i = 0; i < a.size() || carry; ++i)
+    {
+        if (i == a.size())
+            a.push_back(0);
+        long long cur = carry + a[i] * 1ll * b;
+        a[i] = int(cur % base);
+        carry = int(cur / base);
+    }
+    while (a.size() > 1 && a.back() == 0)
+        a.pop_back();
+}
+
 void da_print(vector<int>& a)
 {
     printf("%d", a.empty() ? 0 : a.back());
