@@ -6,6 +6,7 @@
 * * [Бинарное возведение в степень](/theory/binpow.md)
 * * [Примитивы](/theory/primitivy.md)
 * * [Длинная арифметика](/theory/da.md)
+* * [Решето Эратосфена](/theory/eratosfen.md)
 * [Динамическое программирование](/theory/dynamic.md)
 * [Графовые алгоритмы](/theory/graf.md)
 * * [Обход в ширину (не рекурсивный)](/theory/graf/bfs.md)
