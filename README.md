@@ -7,6 +7,7 @@
 * * [Примитивы](/theory/primitivy.md)
 * * [Длинная арифметика](/theory/da.md)
 * * [Решето Эратосфена](/theory/eratosfen.md)
+* * [Диофантовы уравнения с двумя неизвестными](/theory/diafant.md)
 * [Динамическое программирование](/theory/dynamic.md)
 * [Графовые алгоритмы](/theory/graf.md)
 * * [Обход в ширину (не рекурсивный)](/theory/graf/bfs.md)
