@@ -9,6 +9,8 @@
 * * [Решето Эратосфена](/theory/eratosfen.md)
 * * [Диофантовы уравнения с двумя неизвестными](/theory/diafant.md)
 * * [Код Грея](/theory/gray.md)
+* * [Алгоритм BPSW - проверка числа на простоту](/theory/bpsw.md)
+* * [Медиана онлайн](/theory/med_online.md)
 * [Динамическое программирование](/theory/dynamic.md)
 * [Графовые алгоритмы](/theory/graf.md)
 * * [Обход в ширину (не рекурсивный)](/theory/graf/bfs.md)
