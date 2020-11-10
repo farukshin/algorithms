@@ -4,12 +4,12 @@
 const int trivial_limit = 50;
 int p[1000];
 
-int gcd (int a, int b) {
+ll gcd (ll a, ll b) {
 	return a ? gcd (b%a, a) : b;
 }
 
-int powmod (int a, int b, int m) {
-	int res = 1;
+ll powmod (ll a, ll b, ll m) {
+	ll res = 1;
 	while (b)
 		if (b & 1)
 			res = (res * 1ll * a) % m,  --b;
@@ -18,25 +18,25 @@ int powmod (int a, int b, int m) {
 	return res;
 }
 
-bool miller_rabin (int n) {
-	int b = 2;
-	for (int g; (g = gcd (n, b)) != 1; ++b)
+bool miller_rabin (ll n) {
+	ll b = 2;
+	for (ll g; (g = gcd (n, b)) != 1; ++b)
 		if (n > g)
 			return false;
-	int p=0, q=n-1;
+	ll p=0, q=n-1;
 	while ((q & 1) == 0)
 		++p,  q >>= 1;
-	int rem = powmod (b, q, n);
+	ll rem = powmod (b, q, n);
 	if (rem == 1 || rem == n-1)
 		return true;
-	for (int i=1; i<p; ++i) {
+	for (ll i=1; i<p; ++i) {
 		rem = (rem * 1ll * rem) % n;
 		if (rem == n-1)  return true;
 	}
 	return false;
 }
 
-int jacobi (int a, int b)
+ll jacobi (ll a, ll b)
 {
 	if (a == 0)  return 0;
 	if (a == 1)  return 1;
@@ -45,10 +45,10 @@ int jacobi (int a, int b)
 			return jacobi (-a, b);
 		else
 			return - jacobi (-a, b);
-	int a1=a,  e=0;
+	ll a1=a,  e=0;
 	while ((a1 & 1) == 0)
 		a1 >>= 1,  ++e;
-	int s;
+	ll s;
 	if ((e & 1) == 0 || (b & 7) == 1 || (b & 7) == 7)
 		s = 1;
 	else
@@ -60,21 +60,21 @@ int jacobi (int a, int b)
 	return s * jacobi (b % a1, a1);
 }
 
-bool bpsw (int n) {
-	if ((int)sqrt(n+0.0) * (int)sqrt(n+0.0) == n)  return false;
-	int dd=5;
+bool bpsw (ll n) {
+	if ((ll)sqrt(n) * (ll)sqrt(n) == n)  return false; //777 +0.0
+	ll dd=5;
 	for (;;) {
-		int g = gcd (n, abs(dd));
+		ll g = gcd (n, abs(dd));
 		if (1<g && g<n)  return false;
 		if (jacobi (dd, n) == -1)  break;
 		dd = dd<0 ? -dd+2 : -dd-2;
 	}
-	int p=1,  q=(p*p-dd)/4;
-	int d=n+1,  s=0;
+	ll p=1,  q=(p*p-dd)/4;
+	ll d=n+1,  s=0;
 	while ((d & 1) == 0)
 		++s,  d>>=1;
 	long long u=1, v=p, u2m=1, v2m=p, qm=q, qm2=q*2, qkd=q;
-	for (int mask=2; mask<=d; mask<<=1) {
+	for (ll mask=2; mask<=d; mask<<=1) {
 		u2m = (u2m * v2m) % n;
 		v2m = (v2m * v2m) % n;
 		while (v2m < qm2)   v2m += n;
@@ -95,7 +95,7 @@ bool bpsw (int n) {
 	}
 	if (u==0 || v==0)  return true;
 	long long qkd2 = qkd*2;
-	for (int r=1; r<s; ++r) {
+	for (ll r=1; r<s; ++r) {
 		v = (v * v) % n - qkd2;
 		if (v < 0)  v += n;
 		if (v < 0)  v += n;
@@ -110,8 +110,8 @@ bool bpsw (int n) {
 	return false;
 }
 
-bool prime (int n) { // эту функцию нужно вызывать для проверки на простоту
-	for (int i=0; i<trivial_limit && p[i]<n; ++i)
+bool prime (ll n) { 
+	for (ll i=0; i<trivial_limit && p[i]<n; ++i)
 		if (n % p[i] == 0)
 			return false;
 	if (p[trivial_limit-1]*p[trivial_limit-1] >= n)
@@ -121,14 +121,15 @@ bool prime (int n) { // эту функцию нужно вызывать для
 	return bpsw (n);
 }
 
-void prime_init() { // вызвать до первого вызова prime() !
-	for (int i=2, j=0; j<trivial_limit; ++i) {
+void prime_init() {
+	for (ll i=2, j=0; j<trivial_limit; ++i) {
 		bool pr = true;
-		for (int k=2; k*k<=i; ++k)
+		for (ll k=2; k*k<=i; ++k)
 			if (i % k == 0)
 				pr = false;
 		if (pr)
 			p[j++] = i;
 	}
 }
+
 ```
