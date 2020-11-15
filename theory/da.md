@@ -83,6 +83,17 @@ void da_delen_small(vector<int> &a, int &b, int & carry)
 		a.pop_back();
 }
 
+bool da_ravno(vector<int>& a, vector<int>& b)
+{
+    if(a.size() != b.size())
+    	return false;
+    bool success = true;
+    for(int i=0;i<a.size() && success;i++)
+    	if(a[i]!=b[i])
+    		success = false;
+    return success;
+}
+
 void da_print(vector<int>& a)
 {
     printf("%d", a.empty() ? 0 : a.back());
