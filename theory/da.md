@@ -83,6 +83,27 @@ void da_delen_small(vector<int> &a, int &b, int & carry)
 		a.pop_back();
 }
 
+void da_binpow (int x, int n, vector<int> & res)
+{
+	vector<int> a;
+	string sa = to_string(x);
+	da_read(sa, a);
+
+	while (n)
+		if (n & 1) {
+			vector<int> curRes;
+			da_umnogh(res, a, curRes);
+			res= curRes;
+			n--;
+		}
+		else {
+			vector<int> curRes;
+			da_umnogh(a, a, curRes);
+			a=curRes;
+			n >>= 1;
+		}
+}
+
 bool da_ravno(vector<int>& a, vector<int>& b)
 {
     if(a.size() != b.size())
