@@ -27,6 +27,7 @@
 * * [read_ss](/theory/graf/read_ss.md) | [read_ss_from_ms](/theory/graf/read_ss_from_ms.md)
 * Строковые алгоритмы
 * * [Z функция](/theory/zFunction.md)
+* [Правильные скобочные последовательности](/theory/skobki.md)
 * Структуры
 * * [Дерево Фенвика](/theory/fenwick.md)
 * * [DSU Система непересекающихся множеств](/theory/dsu.md)
