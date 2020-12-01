@@ -37,6 +37,9 @@
 * * [Размещения, перестановки, сочетания](/theory/kombinator.md)
 * Шахматы
 * * [pq-конь](/theory/pq_horse.md)
+* Прочее
+* * [RobotPath](/theory/RobotPath.md)
+
 
 ## Языки программирования
 
