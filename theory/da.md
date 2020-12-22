@@ -115,6 +115,22 @@ bool da_ravno(vector<int>& a, vector<int>& b)
     return success;
 }
 
+bool da_more(vector<int>& a, vector<int>& b)
+{
+    if(a.size() > b.size())
+    	return true;
+    else if(a.size() < b.size())
+    	return false;
+
+    for(int i=a.size()-1;i>=0;i--)
+    	if(a[i]>b[i])
+    		return true;
+    	else if(a[i]<b[i])
+    		return false;
+
+    return false;
+}
+
 void da_print(vector<int>& a)
 {
     printf("%d", a.empty() ? 0 : a.back());
