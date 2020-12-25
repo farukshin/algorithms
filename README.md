@@ -41,6 +41,7 @@
 * * [Битовые операции](/theory/bit.md)
 * Прочее
 * * [RobotPath](/theory/RobotPath.md)
+* * [Спираль](/theory/spiral.md)
 
 
 ## Языки программирования
