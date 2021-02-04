@@ -131,6 +131,35 @@ bool da_more(vector<int>& a, vector<int>& b)
     return false;
 }
 
+void da_sqrt(vector<int>& a, vector<int>& ans)
+{
+ vector<int> l, r, eps, mid, dif;
+    string s = "1";
+    da_read(s, l);
+    eps=l;
+    s = "1"+string(55, 0);
+    da_read(s, r);
+    dif = r;
+    da_minus(dif,l);
+    while(da_more(dif,eps))
+    {
+     mid = r;
+     da_plus(mid, l);
+     int n2=2;
+     int carry;
+     da_delen_small(mid, n2, carry);
+     vector<int> func;
+     da_umnogh(mid, mid, func);
+     if(da_more(func,a))
+      r=mid;
+     else
+      l=mid;
+     dif = r;
+     da_minus(dif,l);
+    }
+    ans = l;
+}
+
 void da_print(vector<int>& a)
 {
     printf("%d", a.empty() ? 0 : a.back());
