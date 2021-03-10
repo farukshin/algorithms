@@ -35,6 +35,9 @@
 * [Транзитивное замыкание](/theory/graf/transitive_closure.md)
 * [read_ss](/theory/graf/read_ss.md) | [read_ss_from_ms](/theory/graf/read_ss_from_ms.md)
 
+#### потоки
+* [Нахождение максимального потока. Алгоритм Диница](/theory/graf/dinic.md)
+
 ### Строковые алгоритмы
 
 * [Z функция](/theory/zFunction.md)
