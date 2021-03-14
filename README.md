@@ -70,6 +70,7 @@
 
 * [RobotPath](/theory/RobotPath.md)
 * [Спираль](/theory/spiral.md)
+* [Задача Иосифа](/theory/joseph.md)
 
 
 ## Языки программирования
