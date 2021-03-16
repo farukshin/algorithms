@@ -50,6 +50,7 @@
 * [Дерево Фенвика](/theory/fenwick.md)
 * [DSU Система непересекающихся множеств](/theory/dsu.md)
 * Нахождение минимума в [стеке](/theory/stack_min.md) и в [очереди](/theory/queue_min.md) за O(1)
+* [Sqrt-декомпозиция](/theory/sqrt.md)
 
 ### Сортировка
 
