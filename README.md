@@ -44,6 +44,7 @@
 ### Строковые алгоритмы
 
 * [Z функция](/theory/zFunction.md)
+* [Префикс-функция](/theory/prefix_function.md)
 
 ### Структуры
 
