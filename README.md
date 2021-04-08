@@ -45,6 +45,7 @@
 
 * [Z функция](/theory/zFunction.md)
 * [Префикс-функция](/theory/prefix_function.md)
+* [Нахождение всех подпалиндромов. Алгоритм Манакера](/theory/manaker.md)
 
 ### Структуры
 
