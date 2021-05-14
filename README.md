@@ -16,6 +16,7 @@
 * [Факторизация числа](/theory/factorize.md)
 * [Нахождение степени делителя факториала](/theory/step_factor.md)
 * [Медиана онлайн](/theory/med_online.md)
+* [Перебор всех подмасок данной маски](/theory/mask.md)
 
 ### Динамическое программирование
 
@@ -79,6 +80,8 @@
 * [RobotPath](/theory/RobotPath.md)
 * [Спираль](/theory/spiral.md)
 * [Задача Иосифа](/theory/joseph.md)
+* [Мажорирующий элемент](/theory/major.md)
+
 
 
 ## Языки программирования
