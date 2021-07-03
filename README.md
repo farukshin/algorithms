@@ -97,3 +97,8 @@
 * * [Структуры данных](/theory/data-structure.md)
 * * [Массивы](/languages/cpp/array.md)
 * * [Vector](/languages/cpp/vector.md)
+
+## C++ STL
+* [Новый возможности в С++17](/stl/newcpp17.md)
+* Контейнеры STL
+  * [vector](/stl/vector.md)
