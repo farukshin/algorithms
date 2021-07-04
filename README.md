@@ -99,11 +99,11 @@
 * * [Vector](/languages/cpp/vector.md)
 
 ## C++ STL
-* [Новый возможности в С++17](/STL/newcpp17.md)
+* [Новый возможности в С++17](./stl/newcpp17.md)
 * Контейнеры STL
-  * [Vector](/STL/vector.md)
-  * [Вставляем в map эффективно и по условию (try_emplace)](/STL/try_emplace.md)
-  * [Семантика подсказок для вставки элементов std::map::insert](/STL/map_insert_it.md)
-  * [Эффективно изменяем ключи элементов std::map extract](/STL/extract.md)
-  * [Применяем контейнер std::unordered_map для пользовательских типов](/STL/unordered_map.md)
-  * [Отсеиваем повторяющиеся слова в пользовательском вводе (set)](/STL/set.md)
+  * [Vector](./stl/vector.md)
+  * [Вставляем в map эффективно и по условию (try_emplace)](./stl/try_emplace.md)
+  * [Семантика подсказок для вставки элементов std::map::insert](./stl/map_insert_it.md)
+  * [Эффективно изменяем ключи элементов std::map extract](./stl/extract.md)
+  * [Применяем контейнер std::unordered_map для пользовательских типов](./stl/unordered_map.md)
+  * [Отсеиваем повторяющиеся слова в пользовательском вводе (set)](./stl/set.md)
