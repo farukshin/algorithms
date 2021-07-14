@@ -1,25 +1,25 @@
 ## Система непересекающихся множеств
 
 ```
-vector<int> parent;
+vector<int> leader;
 vector<int> rang;
 
 void make_set (int v) {
-	parent[v] = v;
+	leader[v] = v;
 	rang[v] = 0;
 }
 
 void init (int n) {
-	parent.resize(n);
+	leader.resize(n);
 	rang.resize(n);
 	for(int i=0;i<n;i++)
 		make_set(i);
 }
 
 int find_set (int v) {
-	if (v == parent[v])
+	if (v == leader[v])
 		return v;
-	return parent[v] = find_set (parent[v]);
+	return leader[v] = find_set (leader[v]);
 }
 
 void union_sets (int a, int b) {
@@ -28,7 +28,7 @@ void union_sets (int a, int b) {
 	if (a != b) {
 		if (rang[a] < rang[b])
 			swap (a, b);
-		parent[b] = a;
+		leader[b] = a;
 		if (rang[a] == rang[b])
 			++rang[a];
 	}
