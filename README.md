@@ -8,7 +8,7 @@
 
 * [Бинарное возведение в степень](/theory/binpow.md)
 * [Примитивы](/theory/primitivy.md)
-* [Длинная арифметика](/theory/da.md)
+* [Длинная арифметика](/theory/da.md), [вариант 2](/theory/da2.md)
 * [Решето Эратосфена](/theory/eratosfen.md) | [с линейным временем](/theory/eratosfen_n.md)
 * [Диофантовы уравнения с двумя неизвестными](/theory/diafant.md)
 * [Код Грея](/theory/gray.md)
@@ -36,6 +36,7 @@
 * [Алгоритм Дейкстры](/theory/graf/dejkstra.md)
 * [Топологическая сортировка графа](/theory/graf/topologicSort.md)
 * [Алгоритм Флойда - Уоршелла (нахождения кратчайших путей между всеми парами вершин)](/theory/graf/Floyd_Warshall.md)
+* [Алгоритм Форда-Беллмана](/theory/graf/FordBellman.md)
 * Минимальный остов [Алгоритм Крускала](/theory/graf/Kruskal.md), [Алгоритм Прима](/theory/graf/prim.md), [Алгоритм Крускала с DSU](/theory/graf/Kruskal_dsu.md)
 * [ms-sr](/theory/graf/ms_to_sr.md) | [ms-ss](/theory/graf/ms_to_ss.md) | [sr-ms](/theory/graf/sr_to_ms.md) | [ss-ms](/theory/graf/ss_to_ms.md)
 * [Поиск истоков и стоков](/theory/graf/istok_stok.md)
