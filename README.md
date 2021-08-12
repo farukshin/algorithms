@@ -101,8 +101,11 @@
 * * [Массивы](/languages/cpp/array.md)
 * * [Vector](/languages/cpp/vector.md)
 
-## C++ STL
+## C++
 * [Новый возможности в С++17](./stl/newcpp17.md)
+* [Константы](./stl/const.md)
+
+## C++ STL
 * Контейнеры STL
   * [Vector](./stl/vector.md)
   * [Вставляем в map эффективно и по условию (try_emplace)](./stl/try_emplace.md)
@@ -120,3 +123,5 @@
   * [Числа Фибоначчи с итераторами](./stl/fib_iter.md)
   * [Перебор в обратную сторону с применением обратных адаптеров](./stl/reverse_iter.md)
   
+## Прочее
+* [TCP vs UDP](./theory/tcp_udp.md)
