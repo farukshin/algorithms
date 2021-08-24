@@ -8,6 +8,7 @@
 
 * [Бинарное возведение в степень](/theory/binpow.md)
 * [Примитивы](/theory/primitivy.md)
+* [MODINT](/theory/MODINT.md)
 * [Длинная арифметика](/theory/da.md), [вариант 2](/theory/da2.md)
 * [Решето Эратосфена](/theory/eratosfen.md) | [с линейным временем](/theory/eratosfen_n.md)
 * [Диофантовы уравнения с двумя неизвестными](/theory/diafant.md)
@@ -42,6 +43,7 @@
 * [Поиск истоков и стоков](/theory/graf/istok_stok.md)
 * [Транзитивное замыкание](/theory/graf/transitive_closure.md)
 * [read_ss](/theory/graf/read_ss.md) | [read_ss_from_ms](/theory/graf/read_ss_from_ms.md)
+* [Поиск циклов отрицательного веса](/theory/graf/cycle.md)
 
 #### потоки
 * [Нахождение максимального потока. Алгоритм Диница](/theory/graf/dinic.md)
