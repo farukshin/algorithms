@@ -70,6 +70,7 @@
 * [DSU Система непересекающихся множеств](/theory/dsu.md)
 * Нахождение минимума в [стеке](/theory/stack_min.md) и в [очереди](/theory/queue_min.md) за O(1)
 * [Sqrt-декомпозиция](/theory/sqrt.md)
+* [Sparse Table](/theory/sparse.md)
 
 ### Сортировка
 
@@ -129,6 +130,6 @@
   * [Заполнения обобщенных структур данных](./stl/load_struct.md)
   * [Числа Фибоначчи с итераторами](./stl/fib_iter.md)
   * [Перебор в обратную сторону с применением обратных адаптеров](./stl/reverse_iter.md)
-  
+
 ## Прочее
 * [TCP vs UDP](./theory/tcp_udp.md)

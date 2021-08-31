@@ -1,36 +1,37 @@
 ## Система непересекающихся множеств
 
 ```
-vector<int> leader;
-vector<int> rang;
+struct Dsu {
+	int n;
+	vector<int> leader, rang, sz;
 
-void make_set (int v) {
-	leader[v] = v;
-	rang[v] = 0;
-}
-
-void init (int n) {
-	leader.resize(n);
-	rang.resize(n);
-	for(int i=0;i<n;i++)
-		make_set(i);
-}
-
-int find_set (int v) {
-	if (v == leader[v])
-		return v;
-	return leader[v] = find_set (leader[v]);
-}
-
-void union_sets (int a, int b) {
-	a = find_set (a);
-	b = find_set (b);
-	if (a != b) {
-		if (rang[a] < rang[b])
-			swap (a, b);
-		leader[b] = a;
-		if (rang[a] == rang[b])
-			++rang[a];
+	Dsu(int _n): leader(_n), rang(_n), sz(_n) {
+		iota(all(leader), 0);
 	}
-}
+
+	int get(int v) {
+		return v == leader[v] ? v : leader[v] = get(leader[v]);
+	}
+
+	int size(int v) {
+		return sz(get(v));
+	}
+
+	bool merge(int u, int v) {
+		u = get(u), v = get(v);
+		if (u == v) {
+			return false;
+		}
+		if (rang[u] < rang[v]) {
+			swap(u, v);
+		}
+		leader[v] = u;
+		sz[u]+=sz[v];
+		if (rang[u] == rang[v]) {
+			++rk[u];
+		}
+		return true;
+	}
+};
+
 ```
