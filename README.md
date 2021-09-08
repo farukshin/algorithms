@@ -45,6 +45,10 @@
 * [read_ss](/theory/graf/read_ss.md) | [read_ss_from_ms](/theory/graf/read_ss_from_ms.md)
 * [Поиск циклов отрицательного веса](/theory/graf/cycle.md)
 
+#### компоненты связности
+
+* [Поиск компонент сильной связности, построение конденсации графа за O(N+M)](/theory/graf/scc.md)
+
 #### потоки
 * [Нахождение максимального потока. Алгоритм Диница](/theory/graf/dinic.md)
 

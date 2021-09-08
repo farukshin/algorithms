@@ -5,7 +5,7 @@ struct Dsu {
 	int n;
 	vector<int> leader, rang, sz;
 
-	Dsu(int _n): leader(_n), rang(_n), sz(_n) {
+	Dsu(int _n): leader(_n), rang(_n), sz(_n, 1) {
 		iota(all(leader), 0);
 	}
 
