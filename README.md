@@ -75,6 +75,7 @@
 * Нахождение минимума в [стеке](/theory/stack_min.md) и в [очереди](/theory/queue_min.md) за O(1)
 * [Sqrt-декомпозиция](/theory/sqrt.md)
 * [Sparse Table](/theory/sparse.md)
+* [Декартово дерево (treap)](/theory/treap.md), [Декартово дерево по неявному ключу](/theory/treapImplicit.md)
 
 ### Сортировка
 
