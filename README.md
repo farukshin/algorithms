@@ -102,6 +102,7 @@
 * [Спираль](/theory/spiral.md)
 * [Задача Иосифа](/theory/joseph.md)
 * [Мажорирующий элемент](/theory/major.md)
+* [SuperMemo](/theory/supermemo.md)
 
 ### Эвристические алгоритмы
 * [Алгоритм отжига](/theory/otjig.md)
