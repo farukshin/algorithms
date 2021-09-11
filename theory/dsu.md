@@ -6,7 +6,7 @@ struct Dsu {
 	vector<int> leader, rang, sz;
 
 	Dsu(int _n): leader(_n), rang(_n), sz(_n, 1) {
-		iota(all(leader), 0);
+		iota(begin(leader), end(leader), 0);
 	}
 
 	int get(int v) {
@@ -14,7 +14,7 @@ struct Dsu {
 	}
 
 	int size(int v) {
-		return sz(get(v));
+		return sz[get(v)];
 	}
 
 	bool merge(int u, int v) {
@@ -28,7 +28,7 @@ struct Dsu {
 		leader[v] = u;
 		sz[u]+=sz[v];
 		if (rang[u] == rang[v]) {
-			++rk[u];
+			++rang[u];
 		}
 		return true;
 	}
