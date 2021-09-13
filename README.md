@@ -96,6 +96,9 @@
 * [Битовые операции](/theory/bit.md)
 * [Динамика по битовым маскам](/theory/bit_dp.md)
 
+## Другие техники
+* [Meet-in-the-middle](/theory/meetInTheMiddle.md)
+
 ### Прочее
 
 * [RobotPath](/theory/RobotPath.md)
