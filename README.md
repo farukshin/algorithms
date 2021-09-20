@@ -76,6 +76,7 @@
 * [Sqrt-декомпозиция](/theory/sqrt.md)
 * [Sparse Table](/theory/sparse.md)
 * [Декартово дерево (treap)](/theory/treap.md), [Декартово дерево по неявному ключу](/theory/treapImplicit.md)
+* [2-SAT](./lib/two-sat.cpp)
 
 ### Сортировка
 
@@ -98,6 +99,7 @@
 
 ## Другие техники
 * [Meet-in-the-middle](/theory/meetInTheMiddle.md)
+* [Полезные функции GCC](/theory/gcc_func.md)
 
 ### Прочее
 
