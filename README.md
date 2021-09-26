@@ -36,7 +36,7 @@
 * [Поиск компонент связности](/theory/graf/bfsCompSv.md)
 * [Поиск мостов (offline)](/theory/bridge.md)
 * [Алгоритм Дейкстры](/theory/graf/dejkstra.md)
-* [Топологическая сортировка графа](/theory/graf/topologicSort.md)
+* [Топологическая сортировка графа](/theory/graf/topologicSort.md), [алгоритм Кана (минимальная лексикографическая сортировка)](./theory/graf/kahn.md)
 * [Алгоритм Флойда - Уоршелла (нахождения кратчайших путей между всеми парами вершин)](/theory/graf/Floyd_Warshall.md)
 * [Алгоритм Форда-Беллмана](/theory/graf/FordBellman.md)
 * Минимальный остов [Алгоритм Крускала](/theory/graf/Kruskal.md), [Алгоритм Прима](/theory/graf/prim.md), [Алгоритм Крускала с DSU](/theory/graf/Kruskal_dsu.md)
