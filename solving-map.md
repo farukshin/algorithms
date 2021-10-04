@@ -9,3 +9,9 @@ E-olymp: [973](https://www.e-olymp.com/ru/problems/973) ([Максимальна
 **Топологическая сортировка**
 
 E-olymp: [10651](https://www.e-olymp.com/ru/problems/10651) ([Наименьшая топологическая сортировка](https://www.e-olymp.com/ru/submissions/9363919)), [10652](https://www.e-olymp.com/ru/problems/10652) ([Уникальная топологическая сортировка](https://www.e-olymp.com/ru/submissions/9363996)), [4851](https://www.e-olymp.com/ru/problems/4851) ([Детали](https://www.e-olymp.com/ru/submissions/9364225))
+
+## Структуры данных
+
+**Segment Tree**
+
+E-olymp: [4082](https://www.e-olymp.com/ru/problems/4082) ([Произведение на отрезке](https://www.e-olymp.com/ru/submissions/9432813))
