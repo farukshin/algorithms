@@ -19,6 +19,14 @@ struct TwoSAT
 		g[u].push_back(v),  rg[v].push_back(u);
 	}
 
+	void add_clause(int i, bool f, int j, bool g)
+	{
+        assert(0 <= i && i < n);
+        assert(0 <= j && j < n);
+        add(2 * i + (f ? 0 : 1), 2 * j + (g ? 1 : 0));
+        add(2 * j + (g ? 0 : 1), 2 * i + (f ? 1 : 0));
+    }
+
 	void dfs1(int u)
 	{
 		vis[u] = true;
