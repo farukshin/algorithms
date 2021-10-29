@@ -8,6 +8,17 @@ E-olymp: [973](https://www.e-olymp.com/ru/problems/973) ([Максимальна
 
 E-olymp: [9614](https://www.e-olymp.com/ru/problems/9614) ([Размен монет](https://www.e-olymp.com/ru/submissions/9446138))
 
+**Битовый маски**
+
+E-olymp: [4509](https://www.e-olymp.com/ru/problems/4509) ([Вася и множества](https://www.e-olymp.com/ru/submissions/9662158))
+
+
+**Перебор подмасок всех масок**
+
+E-olymp: [1405](https://www.e-olymp.com/ru/problems/1405) ([Палочки](https://www.e-olymp.com/ru/submissions/9660184)), [2509](https://www.e-olymp.com/ru/problems/2509) ([Почтовое отправление](https://www.e-olymp.com/ru/submissions/9661302))
+
+
+
 ## Графы
 
 **Топологическая сортировка**

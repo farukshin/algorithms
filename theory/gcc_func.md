@@ -2,9 +2,9 @@
 
 ```
 //Возвращает количество единиц в x .
-int __builtin_parity (unsigned int x)
-int __builtin_parityl (беззнаковое длинное)
-int __builtin_popcountll (unsigned long long)
+int __builtin_popcount (unsigned int x)
+int __builtin_popcount (беззнаковое длинное)
+int __builtin_popcount (unsigned long long)
 
 
 //Возвращает единицу плюс индекс наименее значащего 1-битного числа x или, если x равен нулю, возвращает ноль.
