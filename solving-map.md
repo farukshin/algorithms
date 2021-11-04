@@ -33,6 +33,8 @@ AtCoder: [practice2](https://atcoder.jp/contests/practice2/tasks/practice2_g) ([
 
 AtCoder: [abc225](https://atcoder.jp/contests/abc225/tasks/abc225_g) ([G - X](https://atcoder.jp/contests/abc225/submissions/26981658))
 
+Codeforsec: [1426](https://codeforces.com/contest/1426/problem/E) ([E. Камень, ножницы, бумага](https://codeforces.com/contest/1426/submission/134348352))
+
 
 ## Структуры данных
 
