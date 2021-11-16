@@ -1,5 +1,7 @@
 ## Динамика
 
+<font size="1">
+
 **Динамика на деревьях**
 
 E-olymp: [973](https://www.e-olymp.com/ru/problems/973) ([Максимальная сумма на дереве](https://www.e-olymp.com/ru/submissions/9341339)), [265](https://www.e-olymp.com/ru/problems/265) ([Вершинное покрытие](https://www.e-olymp.com/ru/submissions/9341778)), [4104](https://www.e-olymp.com/ru/problems/4104) ([Расстояние в дереве (cnt k len)](https://www.e-olymp.com/ru/submissions/9342203))
@@ -56,4 +58,14 @@ AtCoder: [practice2](https://atcoder.jp/contests/practice2/tasks/practice2_a) ([
 ## Строковые алгоритмы
 
 **лексикографически минимальный циклический сдвиг**
+
 E-olymp: [2107](https://www.e-olymp.com/ru/problems/2107) ([Загадка Горацио](https://www.e-olymp.com/ru/submissions/9502710))
+
+## Сортировка
+
+**сортировка слиянием, инверсии**
+
+E-olymp: [1303](https://www.e-olymp.com/ru/problems/1303) ([Ультра быстрая сортировка](https://www.e-olymp.com/ru/submissions/9863401)), [2379](https://www.e-olymp.com/ru/problems/2379) ([Инверсии Джона](https://www.e-olymp.com/ru/submissions/9869298))
+
+
+</font>

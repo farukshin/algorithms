@@ -87,6 +87,8 @@
 
 * [Общие понятия](/theory/sort.md)
 * [Сортировка выбором](/theory/sort/selection-sort.md)
+* [Сортировка слиянием, подсчет инверсий](/theory/sort/mergesort.md)
+* [Сортировка пузырьком](/theory/sort/BubbleSort.md)
 
 ### Комбинаторика
 
