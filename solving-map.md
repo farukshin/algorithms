@@ -74,4 +74,10 @@ E-olymp: [2107](https://www.e-olymp.com/ru/problems/2107) ([Загадка Го�
 E-olymp: [1303](https://www.e-olymp.com/ru/problems/1303) ([Ультра быстрая сортировка](https://www.e-olymp.com/ru/submissions/9863401)), [2379](https://www.e-olymp.com/ru/problems/2379) ([Инверсии Джона](https://www.e-olymp.com/ru/submissions/9869298))
 
 
+## Модульная арифметика
+
+**расчет по модулю**
+
+AtCoder: [abc228](https://atcoder.jp/contests/abc228/tasks/abc228_e) ([E - Integer Sequence Fair](https://atcoder.jp/contests/abc228/submissions/27410930))
+
 </font>
