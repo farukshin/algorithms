@@ -1,8 +1,9 @@
 # Бинарное возведение в степень
 
 ```
-long binpow(long a, long n, long m)
+long long binpow(long long a, long long n, long long m)
 {
+    a%=m, n%=m;
     if (n == 0)
         return 1 % m;
 
