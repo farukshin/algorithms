@@ -1,6 +1,14 @@
-## Динамика
+
+* [Динамика](#Динамика)
+* [Графы](#Графы)
+* [Структуры данных](#Структуры-данных)
+* [Строковые алгоритмы](#Строковые-алгоритмы)
+* [Сортировка](#Сортировка)
+* [Модульная арифметика](#Модульная-арифметика)
 
 <font size="1">
+
+## Динамика
 
 **Динамика на деревьях**
 
@@ -58,7 +66,7 @@ AtCoder: [practice2](https://atcoder.jp/contests/practice2/tasks/practice2_b) ([
 
 **DSU**
 
-AtCoder: [practice2](https://atcoder.jp/contests/practice2/tasks/practice2_a) ([Disjoint Set Union](https://atcoder.jp/contests/practice2/submissions/26518973))
+AtCoder: [practice2](https://atcoder.jp/contests/practice2/tasks/practice2_a) ([Disjoint Set Union](https://atcoder.jp/contests/practice2/submissions/26518973)), [abc229](https://atcoder.jp/contests/abc229/tasks/abc229_e) ([E - Graph Destruction](https://atcoder.jp/contests/abc229/submissions/27581929)) - офлайн назад
 
 
 ## Строковые алгоритмы
@@ -66,6 +74,10 @@ AtCoder: [practice2](https://atcoder.jp/contests/practice2/tasks/practice2_a) ([
 **лексикографически минимальный циклический сдвиг**
 
 E-olymp: [2107](https://www.e-olymp.com/ru/problems/2107) ([Загадка Горацио](https://www.e-olymp.com/ru/submissions/9502710))
+
+**Скользящее окно**
+
+AtCoder: [abc229](https://atcoder.jp/contests/abc229/tasks/abc229_d) ([D - Longest X](https://atcoder.jp/contests/abc229/submissions/27581774))
 
 ## Сортировка
 
