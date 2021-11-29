@@ -117,6 +117,7 @@
 * [Задача Иосифа](/theory/joseph.md)
 * [Мажорирующий элемент](/theory/major.md)
 * [SuperMemo](/theory/supermemo.md)
+* [Быстрый ввод/вывод](/theory/io.md)
 
 ### Эвристические алгоритмы
 * [Алгоритм отжига](/theory/otjig.md)

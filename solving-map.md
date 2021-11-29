@@ -71,7 +71,7 @@ AtCoder: [practice2](https://atcoder.jp/contests/practice2/tasks/practice2_a) ([
 
 ## Строковые алгоритмы
 
-**лексикографически минимальный циклический сдвиг**
+**Лексикографически минимальный циклический сдвиг**
 
 E-olymp: [2107](https://www.e-olymp.com/ru/problems/2107) ([Загадка Горацио](https://www.e-olymp.com/ru/submissions/9502710))
 
@@ -81,15 +81,21 @@ AtCoder: [abc229](https://atcoder.jp/contests/abc229/tasks/abc229_d) ([D - Longe
 
 ## Сортировка
 
-**сортировка слиянием, инверсии**
+**Сортировка слиянием, инверсии**
 
 E-olymp: [1303](https://www.e-olymp.com/ru/problems/1303) ([Ультра быстрая сортировка](https://www.e-olymp.com/ru/submissions/9863401)), [2379](https://www.e-olymp.com/ru/problems/2379) ([Инверсии Джона](https://www.e-olymp.com/ru/submissions/9869298))
 
 
 ## Модульная арифметика
 
-**расчет по модулю**
+**Расчет по модулю**
 
 AtCoder: [abc228](https://atcoder.jp/contests/abc228/tasks/abc228_e) ([E - Integer Sequence Fair](https://atcoder.jp/contests/abc228/submissions/27410930))
+
+## Прочее
+
+**Быстрый ввод/вывод**
+
+Codeforces: [114](https://codeforces.com/contest/1574/problem/C) ([C. Slay the Dragon](https://codeforces.com/contest/1574/submission/137325319))
 
 </font>
