@@ -10,7 +10,7 @@
 
 * [Бинарное возведение в степень](/theory/binpow.md)
 * [Примитивы](/theory/primitivy.md)
-* [MODINT](/theory/MODINT.md)
+* [MODINT](/theory/modint.md)
 * [Длинная арифметика](/theory/da.md), [вариант 2](/theory/da2.md)
 * [Решето Эратосфена](/theory/eratosfen.md) | [с линейным временем](/theory/eratosfen_n.md)
 * [Диофантовы уравнения с двумя неизвестными](/theory/diafant.md)
