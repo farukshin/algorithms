@@ -79,6 +79,10 @@ E-olymp: [2107](https://www.e-olymp.com/ru/problems/2107) ([Загадка Го�
 
 AtCoder: [abc229](https://atcoder.jp/contests/abc229/tasks/abc229_d) ([D - Longest X](https://atcoder.jp/contests/abc229/submissions/27581774))
 
+**Скобки (ПСК)**
+
+Codeforces: [1504](https://codeforces.com/contest/1504/problem/C) ([C. Сбалансируйте биты](https://codeforces.com/contest/1504/submission/138323886))
+
 ## Сортировка
 
 **Сортировка слиянием, инверсии**
@@ -96,6 +100,14 @@ AtCoder: [abc228](https://atcoder.jp/contests/abc228/tasks/abc228_e) ([E - Integ
 
 **Быстрый ввод/вывод**
 
-Codeforces: [114](https://codeforces.com/contest/1574/problem/C) ([C. Slay the Dragon](https://codeforces.com/contest/1574/submission/137325319))
+Codeforces: [1574](https://codeforces.com/contest/1574/problem/C) ([C. Slay the Dragon](https://codeforces.com/contest/1574/submission/137325319))
+
+**Интерактивные задачи**
+
+Codeforces: [1504](https://codeforces.com/contest/1504/problem/D) ([D. 3-раскраска](https://codeforces.com/contest/1504/submission/138326625))
+
+**Коммивояжёр**
+
+Codeforces: [1504](https://codeforces.com/contest/1504/problem/E) ([E. Задача коммивояжёра](https://codeforces.com/contest/1504/submission/138332535))
 
 </font>
