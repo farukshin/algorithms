@@ -68,6 +68,9 @@ AtCoder: [practice2](https://atcoder.jp/contests/practice2/tasks/practice2_h) ([
 
 AtCoder: [practice2](https://atcoder.jp/contests/practice2/tasks/practice2_b) ([Fenwick Tree](https://atcoder.jp/contests/practice2/submissions/26521284))
 
+Codeforsec: [1591](https://codeforces.com/contest/1591/problem/D) ([D. Ещё одна задача на сортировку](https://codeforces.com/contest/1591/submission/138987659))
+
+
 **DSU**
 
 AtCoder: [practice2](https://atcoder.jp/contests/practice2/tasks/practice2_a) ([Disjoint Set Union](https://atcoder.jp/contests/practice2/submissions/26518973)), [abc229](https://atcoder.jp/contests/abc229/tasks/abc229_e) ([E - Graph Destruction](https://atcoder.jp/contests/abc229/submissions/27581929)) - офлайн назад
