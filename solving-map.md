@@ -26,6 +26,8 @@ E-olymp: [9614](https://www.e-olymp.com/ru/problems/9614) ([Размен мон�
 
 E-olymp: [4509](https://www.e-olymp.com/ru/problems/4509) ([Вася и множества](https://www.e-olymp.com/ru/submissions/9662158))
 
+Codeforces: [998](https://codeforces.com/contest/998/problem/D) ([D. Римские цифры](https://codeforces.com/contest/998/submission/139141566))
+
 
 **Перебор подмасок всех масок**
 
