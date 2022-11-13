@@ -78,6 +78,8 @@ Codeforsec: [1591](https://codeforces.com/contest/1591/problem/D) ([D. Ещё о
 AtCoder: [practice2](https://atcoder.jp/contests/practice2/tasks/practice2_a) ([Disjoint Set Union](https://atcoder.jp/contests/practice2/submissions/26518973)), [abc229](https://atcoder.jp/contests/abc229/tasks/abc229_e) ([E - Graph Destruction](https://atcoder.jp/contests/abc229/submissions/27581929)) - офлайн назад
 
 
+Codeforsec: [1411](https://codeforces.com/contest/1411/problem/C) ([C. Ладейное поле](https://codeforces.com/contest/1411/submission/177457473))
+
 ## Строковые алгоритмы
 
 **Лексикографически минимальный циклический сдвиг**

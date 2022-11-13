@@ -17,6 +17,7 @@
 * [Код Грея](/theory/gray.md)
 * [Алгоритм BPSW - проверка числа на простоту](/theory/bpsw.md)
 * [Факторизация числа](/theory/factorize.md)
+* [Делители числа + факторизация](/theory/divisior_factorize.md)
 * [Вычисление факториала по модулю](/theory/factmod.md)
 * [Нахождение степени делителя факториала](/theory/step_factor.md)
 * [Медиана онлайн](/theory/med_online.md)
